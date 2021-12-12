@@ -282,8 +282,10 @@ p {
     margin-left: 0px;
     margin-top: 5px; }
   .menu {
+    margin-left: 0px;
     display: block;
     text-align: center;
+    align-items: center;
     height: 40px;
     padding-top: 20px;
     background-color: rgba(89, 93, 99, 0.47);
@@ -490,4 +492,13 @@ p {
   #chimi {
     margin-top: 15px;
     width: 130px;
-    height: 130px; } }
+    height: 130px; }
+  /*contactanosCELU*/
+  .infoContacto {
+    margin-bottom: 50px; }
+  .divContacto1 {
+    padding: 6px;
+    line-height: 3;
+    margin: 0px 0px; }
+  .nuestrasRedes {
+    margin-top: 20px; } }
