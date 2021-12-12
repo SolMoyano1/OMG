@@ -275,20 +275,19 @@ p {
         nav ul li a {
           color: white;
           text-align: center;
-          margin: 5px;
-          width: 100%;
-          margin-left: 0px; }
+          margin: 5px 0px; }
   .margen {
     padding-top: 10px; }
+  .logosOmg {
+    margin-left: 0px;
+    margin-top: 5px; }
   .menu {
     display: block;
     text-align: center;
     height: 40px;
     padding-top: 20px;
     background-color: rgba(89, 93, 99, 0.47);
-    margin-left: 0px;
-    width: 100%;
-    margin: 5px; }
+    margin: 5px 0px; }
   /*nosotrosCELU*/
   .nosotrosGrid {
     display: flex;
@@ -301,7 +300,7 @@ p {
   .equipo {
     align-items: justify;
     width: 95%;
-    height: 400px;
+    height: 350px;
     padding: 0px 50px;
     margin: 10px;
     margin-bottom: 3px;
@@ -360,7 +359,16 @@ p {
   #chimi {
     margin-top: 15px;
     width: 130px;
-    height: 130px; } }
+    height: 130px; }
+  /*contactanosCELU*/
+  .infoContacto {
+    margin-bottom: 50px; }
+  .divContacto1 {
+    padding: 6px;
+    line-height: 3;
+    margin: 0px 0px; }
+  .nuestrasRedes {
+    margin-top: 20px; } }
 
 /*TABLET*/
 @media (min-width: 600px) and (max-width: 1000px) {
