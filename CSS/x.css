@@ -251,27 +251,25 @@ p {
     margin: 30px;
     padding: 10px; }
   .logoGrande {
-    margin-bottom: 100px;
+    margin-bottom: 190px;
     width: 0.10px;
     height: 0.01px; }
   .margen {
     padding-top: 10px; }
   /*CaractsMenúCELU*/
   .logosOmg {
-    margin-left: 0px;
-    margin-top: 5px; }
+    margin-left: 0px; }
   nav {
     background-color: rgba(36, 65, 89, 0);
     display: flex;
     position: relative;
     flex-direction: column;
-    margin-left: 0px;
-    width: 100%;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding-right: 30px; }
     nav ul {
-      width: 100%;
-      margin-left: 0px; }
+      width: 100%; }
       nav ul li {
         width: 100%; }
         nav ul li a {
@@ -282,14 +280,14 @@ p {
     display: flex; }
   .menu {
     align-items: center;
-    margin-left: 0px;
     display: block;
     text-align: center;
     height: 40px;
     padding-top: 20px;
     background-color: rgba(89, 93, 99, 0.47);
     margin: 5px 0px;
-    border: 0px; }
+    border: 0px;
+    margin-left: 0px; }
   /*nosotrosCELU*/
   .nosotrosGrid {
     display: flex;
