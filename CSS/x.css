@@ -261,6 +261,8 @@ p {
     text-decoration: underline #ff3300; }
   nav {
     background-color: rgba(36, 65, 89, 0);
+    text-align: center;
+    align-items: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -285,7 +287,6 @@ p {
     margin-left: 0px;
     display: block;
     text-align: center;
-    align-items: center;
     height: 40px;
     padding-top: 20px;
     background-color: rgba(89, 93, 99, 0.47);
@@ -303,7 +304,7 @@ p {
     align-items: justify;
     width: 95%;
     height: 350px;
-    padding: 0px 50px;
+    padding: 0px 20px;
     margin: 10px;
     margin-bottom: 3px;
     padding-bottom: 3px; }
@@ -336,6 +337,10 @@ p {
     width: 100fr;
     margin: 5px;
     padding: 10px; }
+  .figure {
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px; }
   /*clientesCELU*/
   .clientesGrid {
     display: grid;
