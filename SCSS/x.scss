@@ -6,13 +6,13 @@
     margin: 70px 20px;
 }
 .fondoHome{
-    background-image:url(../lunaAzulCortada.jpg);
+    background-image:url(../multimedia/lunaAzulCortada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .fondoSecciones{
-    background-image:url(../fondosecciones.png);
+    background-image:url(../multimedia/fondosecciones.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,7 +23,9 @@ h1{
     font-weight: normal;
     text-align: center;
 }
-
+ p{
+    font-family: 'Montserrat', sans-serif;
+ }
 
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -31,12 +33,10 @@ h2{
     text-align: center;
     color: white;
 }
- .margenCarrousel{
-     padding-top: 120px;
-     padding-bottom: 30px;
-     margin-left: 120px;
-     margin-right: 120px;
- }
+
+.logoGrande{
+    margin-bottom: 100px;
+}
 
 /*Características del menú*/
 
@@ -56,6 +56,7 @@ nav{
         li{
             a{
                 font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
                 color: white;    
                 text-decoration-line: none;
                 
@@ -66,6 +67,7 @@ nav{
 
 nav ul li a:hover{
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     color: white;
     text-decoration: underline rgb(255, 51, 0);
 }
@@ -84,26 +86,32 @@ nav ul li a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 250px;
     border: 5px;
-    margin-left: 45px;
+    margin-left: 35px;
 }
 
 /*NOSOTROS*/
 .nosotrosGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+}
+.hola{
+    font-size: 20px;
+    text-align: center;
 }
 .nosotros{
     font-family: 'Montserrat', sans-serif;
-    padding: 50px;
-    margin-top: 30px;
-    margin-right: 50px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
     line-height: 2;
     text-align: justify;
 }
 .equipo{
     padding: 20px;
     margin: 50px;
+    margin-left: 100px;
+    width: 600px;
+    height: 590px;
 }
 /*SERVICIOS*/
 
@@ -163,18 +171,33 @@ nav ul li a:hover{
     align-items: center;
     line-height: 3;
     background-color: rgb(236, 237, 238);
-    color: rgb(32, 36, 46);
+    color: rgb(42, 43, 44);
 }
 
-.blogPpal{
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    margin-left: 20px;
+.figure{
+    margin-bottom: 80px;
+    margin-left: 60px;
     margin-right: 20px;
 }
 
+.titulosBlog{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(88, 90, 94, 1);
+    margin-top: 0px;
+}
+/*Articulos*/
+.titulos{
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.subtitulos{
 
+}
 /*CLIENTES*/
 .clientesGrid{
     font-family: 'Montserrat', sans-serif;
@@ -202,30 +225,50 @@ nav ul li a:hover{
 }
 
 /*CONTACTANOS*/
-form{
+.infoContacto{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
     text-align: center;
-    align-items:center;
-    label{
-        font-family: 'Montserrat', sans-serif;
-        color:white;
-    }
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 65px;
+}
+.divContacto1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: center;
+    padding: 6px;
+    line-height: 3;
+    margin: 0px 200px;
+    background-color: #9aa7ad;
 }
 
-.cajasContacto{
-    padding: 10px 200px;
-    background-color: rgba(233, 233, 233, 1);
+.nuestrasRedes{
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
-.cajaConsulta{
-    padding: 20px 173px;
-    background-color: rgba(233, 233, 233, 1);
+.redes{
+    color: black;
+    font-weight: bold;
 }
+
+.nuestroIg{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Gral*/
 
 footer{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     width: 100%;
+    margin-top: 50px;
     
 }
 
@@ -236,6 +279,9 @@ p{
 
 .margen{
     padding-top: 150px;
+}
+.margenh1{
+    margin-bottom: 65px;
 }
 
 
@@ -248,19 +294,40 @@ p{
         height: 190px;
         margin: 30px;
         padding: 10px;
+    } 
+
+    .logoGrande{
+        margin-bottom: 100px;
+        width: 0.10px;
+        height: 0.01px;
     }
-    
-    .logosOmg{
-        margin-left: 170px;
+
+    nav ul li a:hover{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        color: white;
+        text-decoration: underline rgb(255, 51, 0);
     }
+
     nav{
+        background-color: rgba(36, 65, 89, 0);
         position: relative;
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
         ul{
+            width: 100%;
+            margin-left: 0px;
             li{
+                width: 100%;
+                margin-left: 0px;
                 a{
-                    color: rgb(0, 4, 15);
+                    color: white;
+                    text-align: center;
+                    margin: 5px;
+                    width: 100%;
+                    margin-left: 0px;
                 }
             }
         }
@@ -269,21 +336,15 @@ p{
     .margen{
         padding-top: 10px;
     }
-
-    .margenCarrousel{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
     
     .menu{
         display: block;
         text-align: center;
         height: 40px;
         padding-top: 20px;
-        background-color: rgb(201, 206, 221);
+        background-color: rgba(89, 93, 99, 0.47);
         margin-left: 0px;
+        width: 100%;
         margin: 5px;
     }
     /*nosotrosCELU*/
@@ -299,13 +360,19 @@ p{
         text-align: justify;
     }
     .equipo{
-        width: 305px;
-        height: 300px;
-        padding: 0px 30px;
+        align-items: justify;
+        width: 95%;
+        height: 400px;
+        padding: 0px 50px;
+        margin: 10px;
+        margin-bottom: 3px;
+        padding-bottom: 3px;
+
     }
 
     
     /*serviciosCELU*/
+
     .serviciosGrid{
     display: grid;
     display: flex;
@@ -317,12 +384,13 @@ p{
     
     background-image: linear-gradient(#FE3308,rgb(125, 131, 180));
     margin: 5px 10px;
-    height: 50px;
+    height: 100px;
     padding-top: 20px;
     padding-bottom: 60px;
     color: white;
     font-size: 20px;
     text-align: center;
+    align-items: center;
     line-height: 1.2;
     }
 
@@ -344,12 +412,12 @@ p{
 
     .clientesGrid{
         display: grid;
-        grid-template-columns:1.1fr 1.1fr 1.1fr;
+        grid-template-columns:1.1fr 1.1fr;
         margin: 30px;
     }
 
     .logos{
-        margin: 8px;
+        margin: 29px;
     }
 
     #viviendas{
@@ -389,8 +457,11 @@ p{
         margin: 30px;
         padding: 10px;
     }
+    
     .logosOmg{
-        margin-left: 40px;
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 0px;
     }
     nav{
         position: relative;
@@ -404,26 +475,49 @@ p{
             }
         }
     }
-
-    .margenCarrousel{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+    
+    nav{
+        background-color: rgba(87, 91, 95, 1);
+        display: grid;
+        position: fixed;
+        grid-template-columns: 1fr 4fr;
+        width: 100%;
+        ul{
+            margin-top: 25px;
+            margin-left: 0px;
+            margin-right: 0px;
+            li{
+                a{
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;    
+                    text-decoration-line: none;
+                    font-size: 12px;
+                }
+            }
+        }
     }
-
-    .margen{
-        padding-top: 10px;
+    .menuGird{
+        display: grid;
     }
     
     .menu{
-        display: block;
-        text-align: center;
-        height: 40px;
-        padding-top: 20px;
-        background-color: rgb(201, 206, 221);
-        margin-left: 0px;
-        margin: 5px;   
+        font-family: 'Montserrat', sans-serif;
+        display: inline;
+        text-align: justify;
+        color: white;
+        list-style-type: none;
+        text-transform: uppercase;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 250px;
+        border: 5px;
+        margin-left: 15px;
+    }
+
+    nav ul li a:hover{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        color: white;
+        text-decoration: underline rgb(255, 51, 0);
     }
     
     /*nosotrosTABLET*/
@@ -433,16 +527,16 @@ p{
     }
 
     .nosotros{
+        text-align: justify;
         padding: 50px;
         margin: 10px;
-        line-height: 2;
-        text-align: justify;
+        line-height: 2;   
     }
     .equipo{
-        width: 455px;
-        height: 400px;
-        padding: 30px 50px;
-        background-color: #fff;
+        align-items: justify;
+        width: 95%;
+        padding: 0px 50px;
+        margin: 10px;
     }
     /*serviciosTABLET*/
     .serviciosGrid{
