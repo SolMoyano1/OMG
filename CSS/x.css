@@ -254,43 +254,42 @@ p {
     margin-bottom: 100px;
     width: 0.10px;
     height: 0.01px; }
-  nav ul li a:hover {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-    color: white;
-    text-decoration: underline #ff3300; }
+  .margen {
+    padding-top: 10px; }
+  /*CaractsMenúCELU*/
+  .logosOmg {
+    margin-left: 0px;
+    margin-top: 5px; }
   nav {
     background-color: rgba(36, 65, 89, 0);
-    text-align: center;
-    align-items: center;
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-left: 0px;
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    align-items: center; }
     nav ul {
       width: 100%;
       margin-left: 0px; }
       nav ul li {
-        width: 100%;
-        margin-left: 0px; }
+        width: 100%; }
         nav ul li a {
           color: white;
           text-align: center;
           margin: 5px 0px; }
-  .margen {
-    padding-top: 10px; }
-  .logosOmg {
-    margin-left: 0px;
-    margin-top: 5px; }
+  .menuGird {
+    display: flex; }
   .menu {
+    align-items: center;
     margin-left: 0px;
     display: block;
     text-align: center;
     height: 40px;
     padding-top: 20px;
     background-color: rgba(89, 93, 99, 0.47);
-    margin: 5px 0px; }
+    margin: 5px 0px;
+    border: 0px; }
   /*nosotrosCELU*/
   .nosotrosGrid {
     display: flex;
@@ -338,16 +337,15 @@ p {
     margin: 5px;
     padding: 10px; }
   .figure {
-    margin-bottom: 80px;
-    margin-left: 20px;
-    margin-right: 20px; }
+    align-items: center;
+    margin-bottom: 80px; }
   /*clientesCELU*/
   .clientesGrid {
     display: grid;
-    grid-template-columns: 1.1fr 1.1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 30px; }
   .logos {
-    margin: 29px; }
+    align-items: center; }
   #viviendas {
     width: 130px;
     height: 113px; }
