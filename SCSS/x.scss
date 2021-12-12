@@ -161,18 +161,6 @@ nav ul li a:hover{
 }
 
 /*BLOG*/
-.blog{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    margin: 0px 200px;
-    padding: 50px;
-    justify-content: flex-end;
-    justify-items: center;
-    align-items: center;
-    line-height: 3;
-    background-color: rgb(236, 237, 238);
-    color: rgb(42, 43, 44);
-}
 
 .figure{
     margin-bottom: 80px;
@@ -195,9 +183,19 @@ nav ul li a:hover{
     letter-spacing: 5px;
     word-spacing: 10px;
 }
-.subtitulos{
-
+.blog{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 0px 200px;
+    padding: 50px;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    line-height: 3;
+    background-color: rgb(236, 237, 238);
+    color: rgb(42, 43, 44);
 }
+
 /*CLIENTES*/
 .clientesGrid{
     font-family: 'Montserrat', sans-serif;
@@ -398,24 +396,21 @@ p{
     }
 
     /*blogCELU*/
-    .blog{
-        display: flex;
-        justify-content: flex-end;
-        justify-items: center;
+    
+    .figure{
         align-items: center;
-        line-height: 3;
-        background-color: rgb(236, 237, 238);
+        margin-bottom: 80px;
+        margin: 0px 0px;
+    }
+
+    /*ArticulosCELU*/
+    .blog{
         color: rgb(32, 36, 46);
         width: 100fr;
         margin: 5px;
         padding: 10px;
     }
-
-    .figure{
-        align-items: center;
-        margin-bottom: 80px;
-    }
-
+    
     /*clientesCELU*/
 
     .clientesGrid{
@@ -458,7 +453,7 @@ p{
 
     .infoContacto{
         margin-bottom: 50px;
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 1.5px;
     }
     .divContacto1{
