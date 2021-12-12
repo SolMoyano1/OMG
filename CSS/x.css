@@ -373,7 +373,9 @@ p {
     line-height: 3;
     margin: 0px 0px; }
   .nuestrasRedes {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  footer {
+    font-size: 9px; } }
 
 /*TABLET*/
 @media (min-width: 600px) and (max-width: 1000px) {
