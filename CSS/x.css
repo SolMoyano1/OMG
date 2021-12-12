@@ -295,7 +295,7 @@ p {
     display: flex;
     flex-direction: column; }
   .nosotros {
-    padding: 50px;
+    padding: 20px;
     margin: 10px;
     line-height: 2;
     text-align: justify; }
